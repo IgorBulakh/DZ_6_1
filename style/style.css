@@ -1,0 +1,62 @@
+	/*Task 6_1_1*/
+#p1{
+	background: #008000;
+	position: relative;
+}
+#p1:hover{
+	background: #ffeb3b;
+	cursor: pointer;
+}
+#p1:active{
+	background-color: #f00;
+}
+#p2{
+	background: #ee82ee;
+	position: relative;
+}
+#p2:hover{
+	background: #a52a2a;
+	cursor: pointer;
+}
+#p2:active{
+	background-color: #ffd700;
+}
+	/*Task6_1_2*/
+input[type="text"]:focus {
+        box-shadow: 0 0 10px rgba(98, 98, 206, 0.5);
+        border-color: #00FF0F;
+    }
+    /*Task 6_1_4*/
+.size{
+	font-size: 2em;
+	font-family: Georgia;
+	color: #f00; 
+}
+	/*Task6_1_5*/
+p::after{
+	content: "***";
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+	/*Task 6_1_6*/
+p::before{
+	content: "\2602";
+}
+	/*Task 6_1_7*/
+.figure {
+	width: 45px;
+    height: 20px;
+    background-color: #000;
+    margin-left: 24px;
+    display: inline-block;
+}
+.figure::before {
+	content: "\25C2";
+	color: #000;
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    position: relative;
+    margin: -1.985px 0 0 -9.03px;
+}
